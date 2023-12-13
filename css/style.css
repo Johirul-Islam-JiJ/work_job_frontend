@@ -1,0 +1,95 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Afacad', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Afacad', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Afacad', sans-serif;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* top-progress-bar */
+.top-progress-bar {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    height: 1vh;
+}
+
+.filled {
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(45deg, #00A54F 0%, #009EE1 100%);
+    /* border-radius: 10px; */
+}
+
+/* side scroll bar start */
+/* Firefox */
+* {
+    scrollbar-width: none;
+    scrollbar-color: #00A54F #009EE1;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #009EE1;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #00A54F;
+    border-radius: 10px;
+    border: 3px none #ffffff;
+}
