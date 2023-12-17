@@ -11,25 +11,32 @@
     }
     scroll();
 
-    //slider
+
+    //activity__active
     $('.slide__active').slick({
         dots: false,
-        arrows: false,
-        infinite: false,
         slidesToShow: 1,
-        autoplay: true,
-        fade: true,
         slidesToScroll: 1,
-        speed: 500,
-        cssEase: 'linear'
+        fade: true,
+        arrows: false,
+        speed: 300,
+        autoplaySpeed: 3000,
+        autoplay: true,
+        infinite: true,
     });
-
-    //counter up
-
-
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
+    //activity__active
+    $('.activity__active').slick({
+        dots: true,
+        vertical: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false,
+        dots: false,
+        speed: 300,
+        smartSpeed: 1000,
+        verticalSwiping: true,
     });
 
 

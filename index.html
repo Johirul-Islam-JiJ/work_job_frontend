@@ -8,7 +8,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
 </head>
 
 <body>
@@ -64,49 +67,77 @@
         </div>
     </header>
     <!-- header end  -->
-
     <!-- slider start -->
     <div class="slider__area">
         <div class="slide__active">
-            <div class="single__slide">
-                <img src="images/slide/01.jpg" alt="">
+            <div class="slider__content " style="background-image: url('/images/slide/1.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <h3>Lorem ipsum
+                                dolor sit amet.</h3>
+                            <p>amet consectetur adipisicing
+                                elit. Temporibus
+                                iure alias doloremque
+                                nam beatae mollitia repellendus nobis sint tenetur reiciendis, similique, inventore
+                                autem fugiat sit vel natus in quidem corporis?</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="single__slide">
-                <img src="images/slide/02.jpg" alt="">
+            <div class="slider__content" style="background-image: url('/images/slide/2.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <h3>najmul Lorem ipsum
+                                dolor sit
+                                amet.</h3>
+                            <p>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Temporibus iure alias
+                                doloremque nam
+                                beatae mollitia repellendus nobis sint tenetur reiciendis, similique, inventore
+                                autem fugiat sit
+                                vel natus in quidem corporis?</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- slider end -->
-
     <!-- counter start -->
     <div class="counter__area pt-5 pb-5">
         <div class="container">
             <div class="row g-3">
-                <div class="col-lg-3">
-                    <div class="single__counter text-center gradient-border">
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="single__counter text-center gradient-border" data-aos="fade-up"
+                        data-aos-duration="3000">
                         <img src="images/counter/job.png" alt="">
-                        <h2>2000</h2>
+                        <h2>1000</h2>
                         <h6>Job Posted</h6>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="single__counter text-center gradient-border">
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="single__counter text-center gradient-border" data-aos="fade-up"
+                        data-aos-duration="2500">
                         <img src="images/counter/user.png" alt="">
-                        <h2>2000</h2>
+                        <h2>2050</h2>
                         <h6>Total User</h6>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="single__counter text-center gradient-border">
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="single__counter text-center gradient-border" data-aos="fade-up"
+                        data-aos-duration="2000">
                         <img src="images/counter/check.png" alt="">
-                        <h2>2000</h2>
+                        <h2>3000</h2>
                         <h6>Task Done</h6>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="single__counter text-center gradient-border">
+                <div class="col-lg-3 col-sm-6 ">
+                    <div class="single__counter text-center gradient-border" data-aos="fade-up"
+                        data-aos-duration="1500">
                         <img src="images/counter/payment.png" alt="">
-                        <h2>2000</h2>
+                        <h2>12000</h2>
                         <h6>Paid</h6>
                     </div>
                 </div>
@@ -114,22 +145,21 @@
         </div>
     </div>
     <!-- counter end -->
-
     <!-- activity start -->
-    <div class="activity__area pb-5 pt-5">
+    <div class="activity__area pb-5 pt-5" data-aos="fade-up" data-aos-duration="3000">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="card p-3 gap-2 activity__active">
                         <div class="single__activity">
-                            <div class="activity__time">10 minits ago</div>
+                            <div class="activity__time">15 minits ago</div>
                             <div class="activity_name">Like + Follow</div>
                             <div class="activity_amount">
                                 <div class="activity_person_name">Ahad Molla</div>
                                 <div class="activity_process">
                                     <div class="activity_process_count">50 of 100</div>
                                     <div class="progress" role="progressbar" aria-label="Animated striped example"
-                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
                                         <div class="progress-bar progress-bar-striped progress-bar-animated"
                                             style="width: 50%"></div>
                                     </div>
@@ -138,14 +168,14 @@
                             </div>
                         </div>
                         <div class="single__activity">
-                            <div class="activity__time">10 minits ago</div>
+                            <div class="activity__time">20 minits ago</div>
                             <div class="activity_name">Like + Follow</div>
                             <div class="activity_amount">
                                 <div class="activity_person_name">Ahad Molla</div>
                                 <div class="activity_process">
                                     <div class="activity_process_count">60 of 100</div>
                                     <div class="progress" role="progressbar" aria-label="Animated striped example"
-                                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
                                         <div class="progress-bar progress-bar-striped progress-bar-animated"
                                             style="width: 60%"></div>
                                     </div>
@@ -154,14 +184,14 @@
                             </div>
                         </div>
                         <div class="single__activity">
-                            <div class="activity__time">10 minits ago</div>
+                            <div class="activity__time">30 minits ago</div>
                             <div class="activity_name">Like + Follow</div>
                             <div class="activity_amount">
                                 <div class="activity_person_name">Ahad Molla</div>
                                 <div class="activity_process">
                                     <div class="activity_process_count">50 of 100</div>
                                     <div class="progress" role="progressbar" aria-label="Animated striped example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
                                         <div class="progress-bar progress-bar-striped progress-bar-animated"
                                             style="width: 50%"></div>
                                     </div>
@@ -177,7 +207,7 @@
                                 <div class="activity_process">
                                     <div class="activity_process_count">50 of 100</div>
                                     <div class="progress" role="progressbar" aria-label="Animated striped example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
                                         <div class="progress-bar progress-bar-striped progress-bar-animated"
                                             style="width: 50%"></div>
                                     </div>
@@ -193,7 +223,7 @@
                                 <div class="activity_process">
                                     <div class="activity_process_count">50 of 100</div>
                                     <div class="progress" role="progressbar" aria-label="Animated striped example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
                                         <div class="progress-bar progress-bar-striped progress-bar-animated"
                                             style="width: 50%"></div>
                                     </div>
@@ -209,7 +239,7 @@
                                 <div class="activity_process">
                                     <div class="activity_process_count">50 of 100</div>
                                     <div class="progress" role="progressbar" aria-label="Animated striped example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
                                         <div class="progress-bar progress-bar-striped progress-bar-animated"
                                             style="width: 50%"></div>
                                     </div>
@@ -225,7 +255,7 @@
                                 <div class="activity_process">
                                     <div class="activity_process_count">50 of 100</div>
                                     <div class="progress" role="progressbar" aria-label="Animated striped example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
                                         <div class="progress-bar progress-bar-striped progress-bar-animated"
                                             style="width: 50%"></div>
                                     </div>
@@ -241,7 +271,7 @@
                                 <div class="activity_process">
                                     <div class="activity_process_count">50 of 100</div>
                                     <div class="progress" role="progressbar" aria-label="Animated striped example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
                                         <div class="progress-bar progress-bar-striped progress-bar-animated"
                                             style="width: 50%"></div>
                                     </div>
@@ -257,7 +287,7 @@
                                 <div class="activity_process">
                                     <div class="activity_process_count">50 of 100</div>
                                     <div class="progress" role="progressbar" aria-label="Animated striped example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
                                         <div class="progress-bar progress-bar-striped progress-bar-animated"
                                             style="width: 50%"></div>
                                     </div>
@@ -273,7 +303,7 @@
                                 <div class="activity_process">
                                     <div class="activity_process_count">50 of 100</div>
                                     <div class="progress" role="progressbar" aria-label="Animated striped example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 8px;">
                                         <div class="progress-bar progress-bar-striped progress-bar-animated"
                                             style="width: 50%"></div>
                                     </div>
@@ -288,9 +318,117 @@
     </div>
     <!-- activity end -->
 
+    <!-- service start -->
+    <div class="service__area pb-5">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="3000">
+                    <a href="" class="single__service  d-block">
+                        <div class="service__title d-flex">
+                            <img src="images/work/work.png" alt="">
+                            <h4>word</h4>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis optio similique labore
+                            earum animi incidunt ducimus mollitia laudantium, dicta consequatur voluptatibus maiores,
+                            quos quod sapiente eum impedit dolor saepe aut!</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="2000">
+                    <a href="" class="single__service  d-block">
+                        <div class="service__title d-flex">
+                            <img src="images/work/job.png" alt="">
+                            <h4>job</h4>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis optio similique labore
+                            earum animi incidunt ducimus mollitia laudantium, dicta consequatur voluptatibus maiores,
+                            quos quod sapiente eum impedit dolor saepe aut!</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="3000">
+                    <a href="" class="single__service  d-block">
+                        <div class="service__title d-flex">
+                            <img src="images/work/deposit.png" alt="">
+                            <h4>earn/deposit</h4>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis optio similique labore
+                            earum animi incidunt ducimus mollitia laudantium, dicta consequatur voluptatibus maiores,
+                            quos quod sapiente eum impedit dolor saepe aut!</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service end -->
+
+    <!-- referral start -->
+    <div class="referral__area pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="refferal__content">
+                        <h2>YOU CAN EARN 5% MORE BY REFERRAL</h2>
+                        <p>Hello sir, you can now earn more by referring your friends. You will get 5% commission from
+                            your referral’s Deposit & 5% from your referral’s each completed task.</p>
+                        <a href="" data-aos="fade-up" data-aos-duration="3000">start now</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="refferal__photo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="images/pattern-bg.png" class="w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- referral end -->
+
+    <!-- referral start -->
+    <div class="referral__area pt-5 mt-5">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-5">
+                    <div class="refferal__photo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="images/playstore.jpg" class="w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="refferal__content">
+                        <h2>Download & Install Appy Now</h2>
+                        <p>Work up job Site is a Micro Job & freelance services marketplace where you can easily earn
+                            more money and also businesses can find and hire individual contractors to do some work
+                            remotely, order a micro job, communication and get tasks done quickly and is the best micro
+                            job site in the world where freelancers around the world directly connect with business
+                            owners and get hired. It helps you to earn money online.Set filters and target your ideal
+                            freelancer.</p>
+                        <a href="" data-aos="fade-up" data-aos-duration="3000">download now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- referral end -->
+
+    <!-- hiring start -->
+    <div class="hiring__area" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-sm-12">
+                    <div class="card hiring__card">
+                        <h6>So what are you waiting for?</h6>
+                        <h1>Find a Great Work</h1>
+                        <a href="">Start Now <img src="images/arrow.gif" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hiring end -->
+
     <!-- footer start -->
     <footer>
-        <div class="footer__area pt-5 pb-5" style="background-color: #22324D;">
+        <div class="footer__area pb-5" style="background-color: #22324D;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
@@ -331,6 +469,17 @@
                             <ul class="footer__menu">
                                 <li><a href="">contact us</a></li>
                             </ul>
+
+                            <div class="footer__social">
+                                <ul class="d-flex align-items-center gap-3">
+                                    <li><a href="#" target="_blank" title="facebook"><i
+                                                class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#" target="_blank" title="instagram"><i
+                                                class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#" target="_blank" title="youtube"><i
+                                                class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -339,15 +488,37 @@
     </footer>
     <!-- footer end -->
 
-
-
-    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- <script src="js/jquery-3.7.1.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+        AOS.init();
+
+        AOS.init({
+            disable: false,
+            startEvent: 'DOMContentLoaded',
+            initClassName: 'aos-init',
+            animatedClassName: 'aos-animate',
+            useClassNames: false,
+            disableMutationObserver: false,
+            debounceDelay: 50,
+            throttleDelay: 99,
+
+            offset: 120,
+            delay: 0,
+            duration: 400,
+            easing: 'ease',
+            once: false,
+            mirror: false,
+            anchorPlacement: 'top-bottom',
+
+        });
+    </script>
 </body>
 
 </html>

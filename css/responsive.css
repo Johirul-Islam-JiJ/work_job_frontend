@@ -1,0 +1,46 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1400px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .refferal__content h2 {
+        font-size: 30px;
+    }
+
+    .refferal__content p {
+        font-size: 20px;
+    }
+
+    .hiring__card {
+        padding: 50px 20px;
+    }
+
+    .hiring__card h1 {
+        font-size: 40px;
+    }
+
+    .hiring__card h6 {
+        font-size: 20px;
+    }
+
+    .card.hiring__card a {
+        padding: 0px 20px;
+    }
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .refferal__content h2 {
+        font-size: 40px;
+    }
+}
