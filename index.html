@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/slick.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
@@ -68,36 +69,61 @@
     </header>
     <!-- header end  -->
     <!-- slider start -->
-    <div class="slider__area">
+    <div class="slider-area">
         <div class="slide__active">
-            <div class="slider__content " style="background-image: url('/images/slide/1.jpg');">
+            <div class="single-slider d-flex align-items-center" style="background-image:url(images/slide/1.jpg)">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 offset-lg-2">
-                            <h3>Lorem ipsum
-                                dolor sit amet.</h3>
-                            <p>amet consectetur adipisicing
-                                elit. Temporibus
-                                iure alias doloremque
-                                nam beatae mollitia repellendus nobis sint tenetur reiciendis, similique, inventore
-                                autem fugiat sit vel natus in quidem corporis?</p>
+                    <div class="row align-items-center">
+                        <div class="col-lg-9 col-12 d-flex align-items-center">
+                            <div class="slider-content">
+                                <h1 data-animation="fadeInUp" data-delay="1s">BUILDING WORLD TOGETHER</h1>
+                                <p data-animation="fadeInUp" data-delay="1.5s">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit Nullam convallis.</p>
+                                <a data-animation="fadeInUp" data-delay="2s" href="#" class="btn">read more</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 d-none d-lg-block">
+                            <div class="slide-img" data-animation="fadeInUp" data-delay="2.5s">
+                                <img src="images/work/deposit.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="slider__content" style="background-image: url('/images/slide/2.jpg');">
+            <div class="single-slider d-flex align-items-center" style="background-image:url(images/slide/2.jpg)">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 offset-lg-2">
-                            <h3>najmul Lorem ipsum
-                                dolor sit
-                                amet.</h3>
-                            <p>Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. Temporibus iure alias
-                                doloremque nam
-                                beatae mollitia repellendus nobis sint tenetur reiciendis, similique, inventore
-                                autem fugiat sit
-                                vel natus in quidem corporis?</p>
+                    <div class="row align-items-center">
+                        <div class="col-lg-9 col-12 d-flex align-items-center">
+                            <div class="slider-content">
+                                <h1 data-animation="fadeInUp" data-delay="1s">BUILDING WORLD TOGETHER</h1>
+                                <p data-animation="fadeInUp" data-delay="1.5s">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit Nullam convallis.</p>
+                                <a data-animation="fadeInUp" data-delay="2s" href="#" class="btn">read more</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 d-none d-lg-block">
+                            <div class="slide-img" data-animation="fadeInUp" data-delay="2.5s">
+                                <img src="images/work/deposit.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-slider d-flex align-items-center" style="background-image:url(images/slide/3.jpg)">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-9 col-12 d-flex align-items-center">
+                            <div class="slider-content">
+                                <h1 data-animation="fadeInUp" data-delay="1s">BUILDING WORLD TOGETHER</h1>
+                                <p data-animation="fadeInUp" data-delay="1.5s">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit Nullam convallis.</p>
+                                <a data-animation="fadeInUp" data-delay="2s" href="#" class="btn">read more</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 d-none d-lg-block">
+                            <div class="slide-img" data-animation="fadeInUp" data-delay="2.5s">
+                                <img src="images/work/deposit.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -150,6 +176,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
+                    <div class="activity__title">
+                        <h2>Recent Activity</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="body_animation">
+                        <div class="div1" id="one"></div>
+                        <div class="div1" id="two"></div>
+                        <div class="div2" id="three"></div>
+                        <div class="div2" id="four"></div>
+                    </div>
                     <div class="card p-3 gap-2 activity__active">
                         <div class="single__activity">
                             <div class="activity__time">15 minits ago</div>
@@ -369,7 +408,7 @@
                         <h2>YOU CAN EARN 5% MORE BY REFERRAL</h2>
                         <p>Hello sir, you can now earn more by referring your friends. You will get 5% commission from
                             your referral’s Deposit & 5% from your referral’s each completed task.</p>
-                        <a href="" data-aos="fade-up" data-aos-duration="3000">start now</a>
+                        <a href="" data-aos="fade-up" data-aos-duration="3000" class="btn">start now</a>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -402,7 +441,7 @@
                             job site in the world where freelancers around the world directly connect with business
                             owners and get hired. It helps you to earn money online.Set filters and target your ideal
                             freelancer.</p>
-                        <a href="" data-aos="fade-up" data-aos-duration="3000">download now</a>
+                        <a href="" data-aos="fade-up" data-aos-duration="3000" class="btn">download now</a>
                     </div>
                 </div>
             </div>
@@ -418,7 +457,7 @@
                     <div class="card hiring__card">
                         <h6>So what are you waiting for?</h6>
                         <h1>Find a Great Work</h1>
-                        <a href="">Start Now <img src="images/arrow.gif" alt=""></a>
+                        <a href="" class="">Start Now <img src="images/arrow.gif" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -431,7 +470,7 @@
         <div class="footer__area pb-5" style="background-color: #22324D;">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-12 col-md-6">
                         <div class="footer_widget">
                             <div class="footer_logo">
                                 <a href="">
@@ -442,7 +481,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-12 col-md-6">
                         <div class="footer_widget">
                             <h3>Company</h3>
                             <ul class="footer__menu">
@@ -452,7 +491,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-12 col-md-6">
                         <div class="footer_widget">
                             <h3>Services</h3>
                             <ul class="footer__menu">
@@ -463,7 +502,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-12 col-md-6">
                         <div class="footer_widget">
                             <h3>Support</h3>
                             <ul class="footer__menu">
@@ -483,6 +522,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="copy_right text-center text-white fw-bold pt-5">
+                            &copy; Copyright
+                            <script>document.write(new Date().getFullYear())</script>
+                            All rights reserved || Developed by <a href="" target="_blank">Classic IT</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
@@ -494,31 +542,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.min.js"></script>
     <script src="js/main.js"></script>
-
-    <script>
-        AOS.init();
-
-        AOS.init({
-            disable: false,
-            startEvent: 'DOMContentLoaded',
-            initClassName: 'aos-init',
-            animatedClassName: 'aos-animate',
-            useClassNames: false,
-            disableMutationObserver: false,
-            debounceDelay: 50,
-            throttleDelay: 99,
-
-            offset: 120,
-            delay: 0,
-            duration: 400,
-            easing: 'ease',
-            once: false,
-            mirror: false,
-            anchorPlacement: 'top-bottom',
-
-        });
-    </script>
 </body>
 
 </html>
